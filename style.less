@@ -1,0 +1,40 @@
+@globalBackground: black;
+@fontColor: #00FF00;
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: @globalBackground;
+    color: @fontColor;
+    height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.control {
+    color: @globalBackground;
+    background-color: @fontColor;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#hackInput {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    /* Height of the footer */
+}
